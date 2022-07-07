@@ -1,0 +1,40 @@
+body{padding:2em;}
+.headerContainer{
+    display:flex;
+    flex-flow: column wrap;
+    align-content:center;
+    background-color: tomato;
+    font-weight:bold;
+    padding:8px;
+}
+.footerContainer{
+    /* display:flex; */
+    /* flex-direction: column; */
+    /* align-content: center; */
+    text-align: center;
+    background: lightgreen;
+    font-weight: bold;
+    padding: 8px;
+}
+.mainContainer{
+    display:flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align:center;
+}
+.mainContentItem{
+    text-align:left;
+    background:deepskyblue;
+}
+article{
+    padding:10px;
+    margin:10px;
+    background:aqua;
+}
+.sideBarLeftItem{background:gold;}
+.sideBarRightItem{background:hotpink;}
+.sideBarItem{flex:1.5 0 0}
+.mainContentItem{flex:3 15px;}
+.sideBarLeftItem{order:1;}
+.mainContentItem{order:2;}
+.sideBarRightItem{order:3;}
